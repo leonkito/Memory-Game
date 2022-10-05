@@ -11,7 +11,7 @@ import dip9 from './imagens/dipil-mosca-domestica.png'
 import dip10 from './imagens/dipil-rato-esgoto.png'
 import dip11 from './imagens/dipil-morcego.png'
 
-const myArray = [
+const pests = [
     { description: "Aranha", img: dip0},
     { description: "Barata de Cozinha", img: dip1},
     { description: "Besouro", img: dip2},
@@ -26,4 +26,4 @@ const myArray = [
     { description: "Morcego", img: dip11}
   ];
   
-  export default myArray
+  export default pests

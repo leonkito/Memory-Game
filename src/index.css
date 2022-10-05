@@ -35,14 +35,22 @@ code {
   padding: 10px;
   justify-content: center;
 }
-.title-holder{
+.title{
   width:100%;
   display:flex;
+  grid-column: 2/3;
   justify-content: center;
 }
 .header{
   font-size:4rem;
-  display:flex;
+  display:grid;
   justify-content: center;
+  height:100px;
+  grid-template-columns:1fr 5fr 1fr;
   width:100%;
+  justify-items: center;
+}
+.score-holder{
+  grid-column: 3/4;
+  font-size:1.5rem;
 }
